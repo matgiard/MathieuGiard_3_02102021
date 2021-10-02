@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+#container {
+    max-width: 375px;
+}
+
+    /* HEADER */
+
+header {
+    border: 2px blue solid;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    /* POSITION */
+
+#position {
+    border: 2px green solid;
+    height: 45px;
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.position-lock {
+    display: flex;
+    margin-right: 50px;
+}
+
+.fa-map-marker-alt {
+    margin-right: 20px;
+}
+
+    /* DESCRIPTION */
+
+#description {
+    border: 2px yellow solid;
+    height: 170px;
+    margin-bottom: 35px;
+}
+
+#howto {
+    border: 2px red solid;
+    height: 170px;
+    margin-bottom: 35px;
+}
+
+#restaurants {
+    border: 2px purple solid;
+    height: 380px;
+    margin-bottom: 35px;
+}
+
+footer {
+    border: 2px orangered solid;
+    height: 120px;
+}
