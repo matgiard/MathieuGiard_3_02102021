@@ -95,11 +95,17 @@ header {
     align-items: center;
     margin-bottom: 15px;
     border-radius: 25px;
+    box-shadow: 2px 3px 3px rgb(215 218 224);
+}
+
+#how-to span {    
+    font-weight: bold;
 }
 
 #how-to i {
     margin-left: 35px;
     margin-right: 30px;
+    color: grey;
 }
 
 #how-to h1, #restaurants h1 {
@@ -165,20 +171,33 @@ header {
 
     /* FOOTER */
 
-footer {
-    height: 150px;
+footer {   
+    height: 190px;
     background-color: rgb(53, 53, 53);
+    display: flex;
 }
 
 footer h3 {
     color: white;
     font-family: Shrikhand;
     font-weight: 100;
-    margin: 0;
+    margin: 0;    
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 footer ul {
     color: white;
     margin: 0;
     list-style: none;
+    line-height: 28px;
+    padding-inline-start: 20px;
+}
+
+.fa-utensils {
+    margin-right: 17px;
+}
+
+.fa-hands-helping {
+    margin-right: 10px;
 }

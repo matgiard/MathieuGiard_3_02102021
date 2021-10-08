@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./Roboto/Roboto-Regular.ttf);
+    font-family: Shrikhand;
+    src: url(./shrikhand/Shrikhand-Regular.otf);
+}
+ 
+body {
+    margin: 0;
+    max-width: 375px;
+}
+
+    /* HEADER */
+
+header {
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    /* HERO-ZONE */
+
+.hero-zone img {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}    
+
+    /* FOOTER */
+
+footer {   
+    height: 190px;
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    font-family: Roboto;
+}
+    
+footer h3 {
+    color: white;
+    font-family: Shrikhand;
+    font-weight: 100;
+    margin: 0;    
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+    
+footer ul {
+    color: white;
+    margin: 0;
+    list-style: none;
+    line-height: 28px;
+    padding-inline-start: 20px;
+}
+    
+.fa-utensils {
+    margin-right: 17px;
+}
+    
+.fa-hands-helping {
+    margin-right: 10px;
+}
