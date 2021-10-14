@@ -63,7 +63,7 @@ header a {
     position: relative;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    height: 910px;
+    height: 980px;
     display: flex;
     flex-direction: column;
 }
@@ -72,37 +72,63 @@ header a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: Roboto, sans-serif;
 }
 
 h2 {
     align-self: baseline;
     font-size: 15px;
     margin-left: 20px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
 }
 
-.container .dish {
+.dish {
     border: 2px white solid;
     margin-bottom: 10px;
     width: 350px;
-    height: 55px;
-    border-radius: 19px;
+    height: 60px;
+    border-radius: 12px;
     background-color: white;
 }
 
+.dish__title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+.dish__details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.dish__price {
+    display: inline-flex;
+    margin-right: 15px;
+    font-weight: 600;
+}
+
 .order-button {
-    padding: 12px;
+    padding: 15px;
     border-radius: 25px;
-    font-size: 14px;
     background-image: linear-gradient(0deg, #9356dc, #ff79da);
-    width: 115px;
+    width: 160px;
     align-self: center;
     margin-top: 25px;
+    height: 20px;
+    font-family: Roboto, sans-serif;
 }
 
 .order-button a {
     color: white;
     text-decoration: none;
-    margin-left: 25px;
+    margin-left: 33px;
+    font-size: 18px;
 }
 
     /* FOOTER */
@@ -111,7 +137,7 @@ footer {
     height: 190px;
     background-color: rgb(53, 53, 53);
     display: flex;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
 }
     
 footer h3 {
