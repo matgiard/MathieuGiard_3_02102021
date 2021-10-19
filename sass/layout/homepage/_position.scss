@@ -1,0 +1,21 @@
+#position {
+    height: 45px;
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 3px 3px 0px #d2d4d7;
+}
+
+.position-lock {
+    display: flex;
+    margin-right: 11px;
+}
+
+.position-text {    
+    font-weight: 600;
+}
+
+.fa-map-marker-alt {
+    margin-right: 20px;
+}

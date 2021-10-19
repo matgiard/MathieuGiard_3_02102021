@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,CAAC;EACT,SAAS,EAAE,KAAK;CACnB",
+    "sources": [
+        "style.scss",
+        "layout/menu-page/_body.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

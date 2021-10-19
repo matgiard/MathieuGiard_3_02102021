@@ -5,13 +5,26 @@
     src: url(./shrikhand/Shrikhand-Regular.otf);
 }
 
-body {
-    margin: 0;
-    font-family: Roboto, sans-serif;
+
+.loading {
+    display: flex;
+    justify-content: center;
 }
 
-#container {
-    max-width: 375px;
+.loading::after {
+    content: "";
+    width: 60px;
+    height: 60px;
+    border: 10px solid #dddddd;
+    border-top-color: #FF79DA;
+    border-radius: 50%;
+    animation: loading 1s ease infinite;
+}
+
+@keyframes loading {
+    to {
+        transform: rotate(1turn);
+    }
 }
 
     /* HEADER */
@@ -19,8 +32,17 @@ body {
 header {
     height: 45px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+}
+    
+header a {
+    color: black;
+}
+    
+.logo img {
+    width: 170px;
+    height: 27px;
 }
 
     /* POSITION */
@@ -31,11 +53,16 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: inset 0px 3px 3px 0px #d2d4d7;
 }
 
 .position-lock {
     display: flex;
-    margin-right: 50px;
+    margin-right: 11px;
+}
+
+.position-text {    
+    font-weight: 600;
 }
 
 .fa-map-marker-alt {
@@ -74,7 +101,8 @@ header {
     padding: 12px;
     border-radius: 25px;
     font-size: 14px;
-    background-color: #FF79DA;
+    background-image: linear-gradient(0deg, #9356dc, #ff79da);
+    box-shadow: 2px 3px 3px rgb(215 218 224);
 }
 
     /* HOW TO */
@@ -98,14 +126,22 @@ header {
     box-shadow: 2px 3px 3px rgb(215 218 224);
 }
 
+#how-to div:hover {
+    background: #F2E7FF;
+}
+
 #how-to span {    
     font-weight: bold;
 }
 
 #how-to i {
-    margin-left: 35px;
+    margin-left: 25px;
     margin-right: 30px;
     color: grey;
+}
+
+#how-to i:hover {
+    color: #9356dc;
 }
 
 #how-to h1, #restaurants h1 {
@@ -114,7 +150,14 @@ header {
 }
 
 #how-to aside {
-    border: 1px solid #FF79DA;
+    background-color: #9356dc;
+    color: white;
+    padding: 7px;
+    padding-top: 3px;
+    padding-bottom: 17px;
+    width: 8px;
+    height: 3px;
+    border-radius: 20px;
 }
 
     /* RESTAURANTS */
@@ -127,8 +170,23 @@ header {
     align-items: center;
 }
 
+.new {
+    position: relative;
+    background-color: #99E2D0;
+    color: green;
+    width: 64px;
+    top: 40px;
+    align-self: end;
+    margin-right: 13px;
+    font-size: 13px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
 .place-frame {
-    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -158,6 +216,10 @@ header {
 #restaurants a {
     text-decoration: none;
     color: black;
+}
+
+#restaurants h1 {
+    margin-block-end: 0;
 }
 
 .place-text {

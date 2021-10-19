@@ -1,0 +1,13 @@
+header {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & a {
+        color: black;
+    }
+        & .logo img {
+            width: 170px;
+            height: 27px;
+        }
+}

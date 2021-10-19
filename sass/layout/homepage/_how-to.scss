@@ -1,0 +1,52 @@
+#how-to {
+    height: auto;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#how-to div {
+    height: 65px;
+    background-color: #F7F7F7;
+    width: 325px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    box-shadow: 2px 3px 3px #D7DAE0;
+}
+
+#how-to div:hover {
+    background: #F2E7FF;
+}
+
+#how-to span {    
+    font-weight: bold;
+}
+
+#how-to i {
+    margin-left: 25px;
+    margin-right: 30px;
+    color: grey;
+}
+
+#how-to i:hover {
+    color: #9356dc;
+}
+
+#how-to h1, #restaurants h1 {
+    align-self: baseline;
+    margin-left: 20px;
+}
+
+#how-to aside {
+    background-color: #9356dc;
+    color: white;
+    padding: 7px;
+    padding-top: 3px;
+    padding-bottom: 17px;
+    width: 8px;
+    height: 3px;
+    border-radius: 20px;
+}
