@@ -1,0 +1,16 @@
+.order-button {
+    padding: 15px;
+    border-radius: 25px;
+    background-image: linear-gradient(0deg, #9356dc, #ff79da);
+    width: 160px;
+    align-self: center;
+    margin-top: 35px;
+    height: 20px;
+    font-family: Roboto, sans-serif;
+    & a {
+        color: white;
+        text-decoration: none;
+        margin-left: 33px;
+        font-size: 18px;
+    }
+}

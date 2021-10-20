@@ -64,23 +64,6 @@ header a {
     margin-top: 5px;
 }
 
-.container {
-    background-color: #f1f1f1;
-    position: relative;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    height: 1030px;
-    display: flex;
-    flex-direction: column;
-}
-
-.container section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Roboto, sans-serif;
-}
-
 .entitled {
     align-self: baseline;
     font-size: 10px;
