@@ -42,6 +42,10 @@
     display: flex;
     justify-content: space-around;
     box-shadow: 2px 3px 3px #D7DAE0;
+    .heart {
+        font-size: 25px;
+        @include fav-icon;
+    }
 }
 
 .place-description i {

@@ -1,11 +1,22 @@
 @import "./utils/variables";
+@import "./utils/mixins";
 
-@import './layout/homepage/container';
-@import './layout/homepage/header';
-@import './layout/homepage/body';
-@import './layout/homepage/position';
-@import './layout/homepage/description';
-@import './layout/homepage/how-to';
-@import './layout/homepage/restaurants';
+@import './base/body';
+@import './base/footer';
+@import './base/general';
 
-@import './layout/footer';
+@import './homepage/base/_container';
+@import './homepage/layout/description';
+@import './homepage/layout/header';
+@import './homepage/layout/how-to';
+@import './homepage/layout/position';
+@import './homepage/layout/restaurants';
+
+
+@import './menu-page/base/container';
+@import './menu-page/components/order-button';
+@import './menu-page/layout/entrance';
+@import './menu-page/layout/header';
+@import './menu-page/layout/hero-zone';
+@import './menu-page/layout/main_food';
+@import './menu-page/layout/title-menu';

@@ -1,0 +1,22 @@
+@mixin fav-heart {
+	font-style: normal;
+	transition: all 500ms;
+	&:hover {
+		background: -webkit-linear-gradient($primary-color, $secondary-color);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		-moz-background-clip: text;
+		-moz-text-fill-color: transparent;
+		-o-background-clip: text;
+		-o-text-fill-color: transparent;
+		font-weight: 900;
+	}
+}
+
+@mixin fav-icon {
+	&:hover {
+		.heart-like {
+			@include fav-heart;
+		}
+	}
+}
