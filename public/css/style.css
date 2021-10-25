@@ -48,19 +48,18 @@ footer ul {
 }
 
 #description {
-  height: 200px;
+  height: 235px;
   margin-bottom: 35px;
   background-color: #F7F7F7;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 #description h1 {
-  margin-top: 0px;
+  margin-top: 25px;
   margin-bottom: 0px;
-  font-size: 20px;
+  font-size: 21px;
   text-align: center;
 }
 
@@ -140,9 +139,10 @@ header .logo img {
 #how-to aside {
   background-color: #9356dc;
   color: white;
-  padding: 7px;
   padding-top: 3px;
-  padding-bottom: 17px;
+  padding-bottom: 18px;
+  padding-left: 6px;
+  padding-right: 7px;
   width: 8px;
   height: 3px;
   border-radius: 20px;
@@ -171,7 +171,7 @@ header .logo img {
 }
 
 #restaurants {
-  height: 1100px;
+  height: 1140px;
   background-color: #F7F7F7;
   display: flex;
   flex-direction: column;
@@ -192,6 +192,7 @@ header .logo img {
   justify-content: center;
   align-items: center;
   font-weight: 600;
+  border-radius: 3px;
 }
 
 .place-frame {
@@ -203,14 +204,28 @@ header .logo img {
   width: 330px;
   height: 165px;
   object-fit: cover;
-  border-top-left-radius: 17px;
-  border-top-right-radius: 17px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+
+.var-place-frame {
+  display: flex;
+  flex-direction: column;
+}
+
+.var-place-frame img {
+  width: 330px;
+  height: 165px;
+  object-fit: cover;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+  margin-top: 25px;
 }
 
 .place-description {
   height: 65px;
-  border-bottom-left-radius: 17px;
-  border-bottom-right-radius: 17px;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
   display: flex;
   justify-content: space-around;
   box-shadow: 2px 3px 3px #D7DAE0;
@@ -236,6 +251,7 @@ header .logo img {
 .place-description i {
   align-self: center;
   margin-left: 50px;
+  margin-top: 15px;
 }
 
 #restaurants a {
@@ -261,11 +277,27 @@ header .logo img {
   position: relative;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  height: 1030px;
+  height: 1075px;
   display: flex;
   flex-direction: column;
 }
 .containerrestau section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+}
+
+.containerrestau-magic {
+  background-color: #f1f1f1;
+  position: relative;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  height: 1150px;
+  display: flex;
+  flex-direction: column;
+}
+.containerrestau-magic section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -341,18 +373,24 @@ hr {
   font-weight: 600;
 }
 
-header {
+.header-menu {
   height: 45px;
   display: flex;
   align-items: center;
 }
-header a {
+.header-menu a {
   color: black;
-  margin-left: 14px;
-  margin-right: 60px;
+  margin-bottom: 17px;
+}
+.header-menu i {
+  position: absolute;
+  margin-left: 20px;
+}
+.header-menu .logo {
+  margin: auto;
 }
 
-.logo img {
+.header-menu img {
   width: 170px;
   height: 27px;
 }
