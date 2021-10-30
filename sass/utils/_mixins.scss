@@ -10,6 +10,7 @@
 		-o-background-clip: text;
 		-o-text-fill-color: transparent;
 		font-weight: 900;
+		cursor: pointer;
 	}
 }
 
@@ -19,4 +20,12 @@
 			@include fav-heart;
 		}
 	}
+}
+
+@mixin hover-but {
+	&:hover {
+        box-shadow: 5px 6px 6px #D7DAE0;
+        background-image: $gradient-hov;
+		cursor: pointer;
+    }
 }

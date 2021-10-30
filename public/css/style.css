@@ -47,6 +47,34 @@ footer ul {
   max-width: 414px;
 }
 
+.spinner {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.loading::after {
+  content: "";
+  width: 60px;
+  height: 60px;
+  border: 10px solid #dddddd;
+  border-top-color: #FF79DA;
+  border-radius: 50%;
+  animation: loading 1s ease infinite;
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(1turn);
+  }
+}
 #description {
   height: 235px;
   margin-bottom: 35px;
@@ -76,8 +104,13 @@ footer ul {
   padding: 12px;
   border-radius: 25px;
   font-size: 14px;
-  background-image: linear-gradient(0deg, #9356dc, #ff79da);
+  background-image: linear-gradient(0deg, #9356DC, #FF79DA);
   box-shadow: 2px 3px 3px #D7DAE0;
+}
+.restaurants-link:hover:hover {
+  box-shadow: 5px 6px 6px #D7DAE0;
+  background-image: linear-gradient(0deg, #a77ddb, #fd9be2);
+  cursor: pointer;
 }
 
 header {
@@ -246,6 +279,7 @@ header .logo img {
   -o-background-clip: text;
   -o-text-fill-color: transparent;
   font-weight: 900;
+  cursor: pointer;
 }
 
 .place-description i {
@@ -319,6 +353,11 @@ header .logo img {
   text-decoration: none;
   margin-left: 33px;
   font-size: 18px;
+}
+.order-button:hover:hover {
+  box-shadow: 5px 6px 6px #D7DAE0;
+  background-image: linear-gradient(0deg, #a77ddb, #fd9be2);
+  cursor: pointer;
 }
 
 .entitled {
@@ -435,6 +474,7 @@ hr {
   -o-background-clip: text;
   -o-text-fill-color: transparent;
   font-weight: 900;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */

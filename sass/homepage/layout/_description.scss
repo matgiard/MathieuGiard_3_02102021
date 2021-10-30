@@ -23,10 +23,14 @@
     color: white;
 }
 
+
 .restaurants-link {
     padding: 12px;
     border-radius: 25px;
     font-size: 14px;
-    background-image: linear-gradient(0deg, #9356dc, #ff79da);
+    background-image: $gradient-but;
     box-shadow: 2px 3px 3px #D7DAE0;
+    &:hover {
+        @include hover-but;
+    }
 }
