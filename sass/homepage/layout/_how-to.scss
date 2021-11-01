@@ -19,6 +19,7 @@
 
 #how-to div:hover {
     background: #F2E7FF;
+    cursor: pointer;
 }
 
 #how-to span {    
@@ -33,6 +34,7 @@
 
 #how-to i:hover {
     color: #9356dc;
+    cursor: pointer;
 }
 
 #how-to h1, #restaurants h1 {
@@ -50,4 +52,10 @@
     width: 8px;
     height: 3px;
     border-radius: 20px;
+    &:hover {
+        -webkit-transform:scale(1.25);
+        cursor: pointer;
+    }
 }
+
+@include media-min;

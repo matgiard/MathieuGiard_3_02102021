@@ -26,28 +26,26 @@
 .place-frame {
     display: flex;
     flex-direction: column;
-}
-
-.place-frame img {
-    width: 330px;
-    height: 165px;
-    object-fit: cover;
-    border-top-left-radius: 11px;
-    border-top-right-radius: 11px;
+    & img {
+        width: 330px;
+        height: 165px;
+        object-fit: cover;
+        border-top-left-radius: 11px;
+        border-top-right-radius: 11px;
+    }
 }
 
 .var-place-frame {
     display: flex;
     flex-direction: column;
-}
-
-.var-place-frame img {
-    width: 330px;
-    height: 165px;
-    object-fit: cover;
-    border-top-left-radius: 11px;
-    border-top-right-radius: 11px;
-    margin-top: 25px;
+    & img {
+        width: 330px;
+        height: 165px;
+        object-fit: cover;
+        border-top-left-radius: 11px;
+        border-top-right-radius: 11px;
+        margin-top: 25px;
+    }
 }
 
 .place-description {
@@ -86,3 +84,5 @@
 .place-name {
     font-weight: bold;
 }
+
+@include media-min;
