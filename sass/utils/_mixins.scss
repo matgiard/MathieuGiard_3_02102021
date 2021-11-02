@@ -30,7 +30,7 @@
     }
 }
 
-@mixin media-min {
+@mixin media-desk {
 	@media only screen and (min-width : 1200px) {
 		body {
 			max-width: unset;
@@ -41,7 +41,7 @@
 		}
 
 		#how-to div {
-			width: 568px;
+			width: 560px;
 			justify-content: flex-start;
 		}
 	

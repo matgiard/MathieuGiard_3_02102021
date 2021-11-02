@@ -31,6 +31,9 @@ hr {
     border-radius: 12px;
     background-color: white;
     box-shadow: 2px 3px 3px #D7DAE0;
+    animation: appear;
+    animation-duration: 1200ms;
+    animation-fill-mode: backwards;
     &__title {
         font-size: 18px;
         font-weight: 600;
@@ -54,7 +57,7 @@ hr {
                     position: relative;
                     width: 63px;
                     height: 64px;
-                    left: 83%;
+                    left: 89.5%;
                     bottom: 88%;
                     display: flex;
                     align-items: center;
@@ -63,19 +66,22 @@ hr {
                     border-bottom-right-radius: 12px;
                     background-color: #99E2D0;
                     margin: 0;
-                    & .fa, .fas {
+                    & i {
                         font-family: 'Font Awesome 5 Free';
                         font-weight: 900;
                         color: white;
-                        font-size: 23px;
-                        transform: rotate(1turn);
+                        font-size: 23px;                       
                     }
                 }
                 &:hover > .dish__icon {
                     animation: pill;
-                    animation-duration: 1s;
+                    animation-duration: 1200ms;
                     animation-fill-mode: forwards;
-                    animation-timing-function: cubic-bezier(-4,1,0,1);
+                    animation-timing-function: cubic-bezier(0,0,0,1);
+                    i {
+                        transform: rotate(1turn);
+                        transition: transform 500ms ease-in-out;
+                    }
                 }
 }
 
@@ -90,4 +96,15 @@ hr {
     }
 }
 
-@include media-min;
+@keyframes appear {
+    from {
+        transform: translateY(45px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@include media-desk;
