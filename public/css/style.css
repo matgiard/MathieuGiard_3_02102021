@@ -1154,6 +1154,9 @@ hr {
   color: white;
   font-size: 23px;
 }
+.dish:hover {
+  cursor: pointer;
+}
 .dish:hover .dish__icon {
   animation: pill;
   animation-duration: 1200ms;
