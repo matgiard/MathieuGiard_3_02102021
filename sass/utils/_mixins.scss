@@ -55,40 +55,27 @@
 			margin-right: 500px;
 			margin-bottom: 30px;
 		}
-		.place-frame {
+		.place {
 			width: 560px;
+			& img {
+				width: 560px;
+			}
+				&__text {
+					margin-right: 69px;
+				}
+					&__description i {
+						margin-left: 0;
+						margin-right: 75px;
+						font-size: 30px;
+					}
+
 		}
 
-		.place-frame img {
+		.place--var {
 			width: 560px;
-		}
-
-		.place-text {
-			margin-right: 69px;
-		}
-
-		.place-description i {
-			margin-left: 0;
-			margin-right: 75px;
-			font-size: 30px;
-		}
-
-		.var-place-frame {
-			width: 560px;
-		}
-
-		.var-place-frame img {
-			width: 560px;
-		}
-
-		.var-place-frame .place-text {
-			margin-right: 69px;
-		}
-
-		.var-place-frame .place-description i {
-			margin-left: 0;
-			margin-right: 75px;
-			font-size: 30px;
+			& img {
+				width: 560px;
+			}
 		}
 
 		footer ul {
