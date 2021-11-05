@@ -84,6 +84,21 @@ body {
   .dish__icon {
     left: 89.5%;
   }
+  .dish:hover .dish__icon {
+    animation: pill;
+    animation-duration: 1200ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0, 0, 0, 1);
+  }
+  .dish:hover .dish__icon i {
+    transform: rotate(1turn);
+    transition: transform 500ms ease-in-out;
+  }
+  .dish:hover .dish__text--detailsprice {
+    width: 500px;
+    transform: translateX(-1px);
+    transition: transform 200ms;
+  }
 
   .containerrestau {
     height: 1110px;
@@ -233,6 +248,21 @@ footer ul {
   .dish__icon {
     left: 89.5%;
   }
+  .dish:hover .dish__icon {
+    animation: pill;
+    animation-duration: 1200ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0, 0, 0, 1);
+  }
+  .dish:hover .dish__icon i {
+    transform: rotate(1turn);
+    transition: transform 500ms ease-in-out;
+  }
+  .dish:hover .dish__text--detailsprice {
+    width: 500px;
+    transform: translateX(-1px);
+    transition: transform 200ms;
+  }
 
   .containerrestau {
     height: 1110px;
@@ -333,6 +363,21 @@ footer ul {
   }
   .dish__icon {
     left: 89.5%;
+  }
+  .dish:hover .dish__icon {
+    animation: pill;
+    animation-duration: 1200ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0, 0, 0, 1);
+  }
+  .dish:hover .dish__icon i {
+    transform: rotate(1turn);
+    transition: transform 500ms ease-in-out;
+  }
+  .dish:hover .dish__text--detailsprice {
+    width: 500px;
+    transform: translateX(-1px);
+    transition: transform 200ms;
   }
 
   .containerrestau {
@@ -592,6 +637,21 @@ header .logo img {
   .dish__icon {
     left: 89.5%;
   }
+  .dish:hover .dish__icon {
+    animation: pill;
+    animation-duration: 1200ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0, 0, 0, 1);
+  }
+  .dish:hover .dish__icon i {
+    transform: rotate(1turn);
+    transition: transform 500ms ease-in-out;
+  }
+  .dish:hover .dish__text--detailsprice {
+    width: 500px;
+    transform: translateX(-1px);
+    transition: transform 200ms;
+  }
 
   .containerrestau {
     height: 1110px;
@@ -800,6 +860,21 @@ header .logo img {
   .dish__icon {
     left: 89.5%;
   }
+  .dish:hover .dish__icon {
+    animation: pill;
+    animation-duration: 1200ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0, 0, 0, 1);
+  }
+  .dish:hover .dish__icon i {
+    transform: rotate(1turn);
+    transition: transform 500ms ease-in-out;
+  }
+  .dish:hover .dish__text--detailsprice {
+    width: 500px;
+    transform: translateX(-1px);
+    transition: transform 200ms;
+  }
 
   .containerrestau {
     height: 1110px;
@@ -920,6 +995,21 @@ header .logo img {
   }
   .dish__icon {
     left: 89.5%;
+  }
+  .dish:hover .dish__icon {
+    animation: pill;
+    animation-duration: 1200ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0, 0, 0, 1);
+  }
+  .dish:hover .dish__icon i {
+    transform: rotate(1turn);
+    transition: transform 500ms ease-in-out;
+  }
+  .dish:hover .dish__text--detailsprice {
+    width: 500px;
+    transform: translateX(-1px);
+    transition: transform 200ms;
   }
 
   .containerrestau {
@@ -1180,6 +1270,21 @@ hr {
   .dish__icon {
     left: 89.5%;
   }
+  .dish:hover .dish__icon {
+    animation: pill;
+    animation-duration: 1200ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0, 0, 0, 1);
+  }
+  .dish:hover .dish__icon i {
+    transform: rotate(1turn);
+    transition: transform 500ms ease-in-out;
+  }
+  .dish:hover .dish__text--detailsprice {
+    width: 500px;
+    transform: translateX(-1px);
+    transition: transform 200ms;
+  }
 
   .containerrestau {
     height: 1110px;
@@ -1357,6 +1462,21 @@ hr {
   }
   .dish__icon {
     left: 89.5%;
+  }
+  .dish:hover .dish__icon {
+    animation: pill;
+    animation-duration: 1200ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0, 0, 0, 1);
+  }
+  .dish:hover .dish__icon i {
+    transform: rotate(1turn);
+    transition: transform 500ms ease-in-out;
+  }
+  .dish:hover .dish__text--detailsprice {
+    width: 500px;
+    transform: translateX(-1px);
+    transition: transform 200ms;
   }
 
   .containerrestau {
