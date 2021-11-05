@@ -34,24 +34,34 @@ hr {
     animation: appear;
     animation-duration: 1200ms;
     animation-fill-mode: backwards;
-    &__title {
-        font-size: 18px;
-        font-weight: 600;
-        margin-left: 10px;
-        margin-top: 6px;
-    }
-        &__details {
+    &__text {
+        display: flex;
+        flex-direction: column;
+        &--title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-left: 10px;
+            margin-top: 6px;
+            @include text-ellipsis;
+        }
+        &--detailsprice {
             display: flex;
             justify-content: space-between;
-            margin-top: 5px;
-            margin-left: 10px;
-            font-size: 15px;
-        }
-            &__price {
-                display: inline-flex;
+            &--details {
+                justify-content: space-between;
+                margin-top: 5px;
+                margin-left: 10px;
+                font-size: 15px;
+                @include text-ellipsis;
+            }
+            &--price {
                 margin-right: 15px;
                 font-weight: 600;
+                margin-top: 4px;
             }
+        }
+            
+    }
                 &__icon {
                     opacity: 0;
                     position: relative;
@@ -73,14 +83,25 @@ hr {
                         font-size: 23px;                       
                     }
                 }
-                &:hover > .dish__icon {
-                    animation: pill;
-                    animation-duration: 1200ms;
-                    animation-fill-mode: forwards;
-                    animation-timing-function: cubic-bezier(0,0,0,1);
-                    i {
-                        transform: rotate(1turn);
-                        transition: transform 500ms ease-in-out;
+                &:hover {
+                    .dish {
+                        &__icon {
+                            animation: pill;
+                            animation-duration: 1200ms;
+                            animation-fill-mode: forwards;
+                            animation-timing-function: cubic-bezier(0,0,0,1);
+                            i {
+                                transform: rotate(1turn);
+                                transition: transform 500ms ease-in-out;
+                            }
+                        }
+                        &__text {
+                            &--detailsprice {
+                                width: 300px;
+                                transform: translateX(-1px);
+                                transition: transform 200ms;
+                            }
+                        }
                     }
                 }
 }

@@ -118,7 +118,7 @@
 			height: 1110px;
 		}
 
-		.containerrestau-magic {
+		.containerrestau--height {
 			height: 1185px;
 		}
 	}
@@ -149,4 +149,10 @@
 			margin-right: 30px;
 		}
 	}
+}
+
+@mixin text-ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
