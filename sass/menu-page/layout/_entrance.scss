@@ -24,16 +24,16 @@ hr {
 
 
 .dish {
-    border: 2px white solid;
     margin-bottom: 10px;
     width: 350px;
-    height: 60px;
+    height: 62px;
     border-radius: 12px;
     background-color: white;
     box-shadow: 2px 3px 3px #D7DAE0;
     animation: appear;
     animation-duration: 1200ms;
     animation-fill-mode: backwards;
+    overflow: hidden;
     &__text {
         display: flex;
         flex-direction: column;
@@ -66,7 +66,7 @@ hr {
                     opacity: 0;
                     position: relative;
                     width: 63px;
-                    height: 64px;
+                    height: 67px;
                     left: 82.8%;
                     bottom: 88%;
                     display: flex;
@@ -88,9 +88,10 @@ hr {
                     .dish {
                         &__icon {
                             animation: pill;
-                            animation-duration: 1200ms;
-                            animation-fill-mode: forwards;
-                            animation-timing-function: cubic-bezier(0,0,0,1);
+                            animation-duration: 340ms;
+                            animation-fill-mode: both;
+                            animation-timing-function: cubic-bezier(0,0,0,0);
+                            overflow: hidden;
                             i {
                                 transform: rotate(1turn);
                                 transition: transform 500ms ease-in-out;

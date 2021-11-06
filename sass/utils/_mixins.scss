@@ -116,9 +116,9 @@
 				.dish {
 					&__icon {
 						animation: pill;
-						animation-duration: 1200ms;
+						animation-duration: 340ms;
 						animation-fill-mode: forwards;
-						animation-timing-function: cubic-bezier(0,0,0,1);
+						animation-timing-function: cubic-bezier(0,0,0,0);
 						i {
 							transform: rotate(1turn);
 							transition: transform 500ms ease-in-out;

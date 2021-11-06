@@ -86,9 +86,9 @@ body {
   }
   .dish:hover .dish__icon {
     animation: pill;
-    animation-duration: 1200ms;
+    animation-duration: 340ms;
     animation-fill-mode: forwards;
-    animation-timing-function: cubic-bezier(0, 0, 0, 1);
+    animation-timing-function: cubic-bezier(0, 0, 0, 0);
   }
   .dish:hover .dish__icon i {
     transform: rotate(1turn);
@@ -250,9 +250,9 @@ footer ul {
   }
   .dish:hover .dish__icon {
     animation: pill;
-    animation-duration: 1200ms;
+    animation-duration: 340ms;
     animation-fill-mode: forwards;
-    animation-timing-function: cubic-bezier(0, 0, 0, 1);
+    animation-timing-function: cubic-bezier(0, 0, 0, 0);
   }
   .dish:hover .dish__icon i {
     transform: rotate(1turn);
@@ -366,9 +366,9 @@ footer ul {
   }
   .dish:hover .dish__icon {
     animation: pill;
-    animation-duration: 1200ms;
+    animation-duration: 340ms;
     animation-fill-mode: forwards;
-    animation-timing-function: cubic-bezier(0, 0, 0, 1);
+    animation-timing-function: cubic-bezier(0, 0, 0, 0);
   }
   .dish:hover .dish__icon i {
     transform: rotate(1turn);
@@ -639,9 +639,9 @@ header .logo img {
   }
   .dish:hover .dish__icon {
     animation: pill;
-    animation-duration: 1200ms;
+    animation-duration: 340ms;
     animation-fill-mode: forwards;
-    animation-timing-function: cubic-bezier(0, 0, 0, 1);
+    animation-timing-function: cubic-bezier(0, 0, 0, 0);
   }
   .dish:hover .dish__icon i {
     transform: rotate(1turn);
@@ -862,9 +862,9 @@ header .logo img {
   }
   .dish:hover .dish__icon {
     animation: pill;
-    animation-duration: 1200ms;
+    animation-duration: 340ms;
     animation-fill-mode: forwards;
-    animation-timing-function: cubic-bezier(0, 0, 0, 1);
+    animation-timing-function: cubic-bezier(0, 0, 0, 0);
   }
   .dish:hover .dish__icon i {
     transform: rotate(1turn);
@@ -998,9 +998,9 @@ header .logo img {
   }
   .dish:hover .dish__icon {
     animation: pill;
-    animation-duration: 1200ms;
+    animation-duration: 340ms;
     animation-fill-mode: forwards;
-    animation-timing-function: cubic-bezier(0, 0, 0, 1);
+    animation-timing-function: cubic-bezier(0, 0, 0, 0);
   }
   .dish:hover .dish__icon i {
     transform: rotate(1turn);
@@ -1091,16 +1091,16 @@ hr {
 }
 
 .dish {
-  border: 2px white solid;
   margin-bottom: 10px;
   width: 350px;
-  height: 60px;
+  height: 62px;
   border-radius: 12px;
   background-color: white;
   box-shadow: 2px 3px 3px #D7DAE0;
   animation: appear;
   animation-duration: 1200ms;
   animation-fill-mode: backwards;
+  overflow: hidden;
 }
 .dish__text {
   display: flex;
@@ -1137,7 +1137,7 @@ hr {
   opacity: 0;
   position: relative;
   width: 63px;
-  height: 64px;
+  height: 67px;
   left: 82.8%;
   bottom: 88%;
   display: flex;
@@ -1159,9 +1159,10 @@ hr {
 }
 .dish:hover .dish__icon {
   animation: pill;
-  animation-duration: 1200ms;
-  animation-fill-mode: forwards;
-  animation-timing-function: cubic-bezier(0, 0, 0, 1);
+  animation-duration: 340ms;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0, 0, 0, 0);
+  overflow: hidden;
 }
 .dish:hover .dish__icon i {
   transform: rotate(1turn);
@@ -1275,9 +1276,9 @@ hr {
   }
   .dish:hover .dish__icon {
     animation: pill;
-    animation-duration: 1200ms;
+    animation-duration: 340ms;
     animation-fill-mode: forwards;
-    animation-timing-function: cubic-bezier(0, 0, 0, 1);
+    animation-timing-function: cubic-bezier(0, 0, 0, 0);
   }
   .dish:hover .dish__icon i {
     transform: rotate(1turn);
@@ -1468,9 +1469,9 @@ hr {
   }
   .dish:hover .dish__icon {
     animation: pill;
-    animation-duration: 1200ms;
+    animation-duration: 340ms;
     animation-fill-mode: forwards;
-    animation-timing-function: cubic-bezier(0, 0, 0, 1);
+    animation-timing-function: cubic-bezier(0, 0, 0, 0);
   }
   .dish:hover .dish__icon i {
     transform: rotate(1turn);
