@@ -33,7 +33,7 @@
 }
 
 #how-to i:hover {
-    color: #9356dc;
+    color: $primary-color;
     cursor: pointer;
 }
 
@@ -43,7 +43,7 @@
 }
 
 #how-to aside {
-    background-color: #9356dc;
+    background-color: $primary-color;
     color: white;
     padding-top: 3px;
     padding-bottom: 18px;

@@ -80,19 +80,21 @@ body {
 
   .dish {
     width: 560px;
+    height: 65px;
   }
   .dish__icon {
     left: 89.5%;
   }
   .dish:hover .dish__icon {
+    height: 74px;
     animation: pill;
-    animation-duration: 340ms;
+    animation-duration: 508ms;
     animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(0, 0, 0, 0);
   }
   .dish:hover .dish__icon i {
     transform: rotate(1turn);
-    transition: transform 500ms ease-in-out;
+    transition: transform 550ms ease-in-out;
   }
   .dish:hover .dish__text--detailsprice {
     width: 500px;
@@ -244,19 +246,21 @@ footer ul {
 
   .dish {
     width: 560px;
+    height: 65px;
   }
   .dish__icon {
     left: 89.5%;
   }
   .dish:hover .dish__icon {
+    height: 74px;
     animation: pill;
-    animation-duration: 340ms;
+    animation-duration: 508ms;
     animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(0, 0, 0, 0);
   }
   .dish:hover .dish__icon i {
     transform: rotate(1turn);
-    transition: transform 500ms ease-in-out;
+    transition: transform 550ms ease-in-out;
   }
   .dish:hover .dish__text--detailsprice {
     width: 500px;
@@ -360,19 +364,21 @@ footer ul {
 
   .dish {
     width: 560px;
+    height: 65px;
   }
   .dish__icon {
     left: 89.5%;
   }
   .dish:hover .dish__icon {
+    height: 74px;
     animation: pill;
-    animation-duration: 340ms;
+    animation-duration: 508ms;
     animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(0, 0, 0, 0);
   }
   .dish:hover .dish__icon i {
     transform: rotate(1turn);
-    transition: transform 500ms ease-in-out;
+    transition: transform 550ms ease-in-out;
   }
   .dish:hover .dish__text--detailsprice {
     width: 500px;
@@ -532,7 +538,7 @@ header .logo img {
 }
 
 #how-to i:hover {
-  color: #9356dc;
+  color: #9356DC;
   cursor: pointer;
 }
 
@@ -542,7 +548,7 @@ header .logo img {
 }
 
 #how-to aside {
-  background-color: #9356dc;
+  background-color: #9356DC;
   color: white;
   padding-top: 3px;
   padding-bottom: 18px;
@@ -633,19 +639,21 @@ header .logo img {
 
   .dish {
     width: 560px;
+    height: 65px;
   }
   .dish__icon {
     left: 89.5%;
   }
   .dish:hover .dish__icon {
+    height: 74px;
     animation: pill;
-    animation-duration: 340ms;
+    animation-duration: 508ms;
     animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(0, 0, 0, 0);
   }
   .dish:hover .dish__icon i {
     transform: rotate(1turn);
-    transition: transform 500ms ease-in-out;
+    transition: transform 550ms ease-in-out;
   }
   .dish:hover .dish__text--detailsprice {
     width: 500px;
@@ -856,19 +864,21 @@ header .logo img {
 
   .dish {
     width: 560px;
+    height: 65px;
   }
   .dish__icon {
     left: 89.5%;
   }
   .dish:hover .dish__icon {
+    height: 74px;
     animation: pill;
-    animation-duration: 340ms;
+    animation-duration: 508ms;
     animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(0, 0, 0, 0);
   }
   .dish:hover .dish__icon i {
     transform: rotate(1turn);
-    transition: transform 500ms ease-in-out;
+    transition: transform 550ms ease-in-out;
   }
   .dish:hover .dish__text--detailsprice {
     width: 500px;
@@ -992,19 +1002,21 @@ header .logo img {
 
   .dish {
     width: 560px;
+    height: 65px;
   }
   .dish__icon {
     left: 89.5%;
   }
   .dish:hover .dish__icon {
+    height: 74px;
     animation: pill;
-    animation-duration: 340ms;
+    animation-duration: 508ms;
     animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(0, 0, 0, 0);
   }
   .dish:hover .dish__icon i {
     transform: rotate(1turn);
-    transition: transform 500ms ease-in-out;
+    transition: transform 550ms ease-in-out;
   }
   .dish:hover .dish__text--detailsprice {
     width: 500px;
@@ -1159,14 +1171,14 @@ hr {
 }
 .dish:hover .dish__icon {
   animation: pill;
-  animation-duration: 340ms;
+  animation-duration: 508ms;
   animation-fill-mode: both;
   animation-timing-function: cubic-bezier(0, 0, 0, 0);
   overflow: hidden;
 }
 .dish:hover .dish__icon i {
   transform: rotate(1turn);
-  transition: transform 500ms ease-in-out;
+  transition: transform 550ms ease-in-out;
 }
 .dish:hover .dish__text--detailsprice {
   width: 300px;
@@ -1270,19 +1282,21 @@ hr {
 
   .dish {
     width: 560px;
+    height: 65px;
   }
   .dish__icon {
     left: 89.5%;
   }
   .dish:hover .dish__icon {
+    height: 74px;
     animation: pill;
-    animation-duration: 340ms;
+    animation-duration: 508ms;
     animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(0, 0, 0, 0);
   }
   .dish:hover .dish__icon i {
     transform: rotate(1turn);
-    transition: transform 500ms ease-in-out;
+    transition: transform 550ms ease-in-out;
   }
   .dish:hover .dish__text--detailsprice {
     width: 500px;
@@ -1463,19 +1477,21 @@ hr {
 
   .dish {
     width: 560px;
+    height: 65px;
   }
   .dish__icon {
     left: 89.5%;
   }
   .dish:hover .dish__icon {
+    height: 74px;
     animation: pill;
-    animation-duration: 340ms;
+    animation-duration: 508ms;
     animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(0, 0, 0, 0);
   }
   .dish:hover .dish__icon i {
     transform: rotate(1turn);
-    transition: transform 500ms ease-in-out;
+    transition: transform 550ms ease-in-out;
   }
   .dish:hover .dish__text--detailsprice {
     width: 500px;

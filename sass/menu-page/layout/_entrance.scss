@@ -88,13 +88,13 @@ hr {
                     .dish {
                         &__icon {
                             animation: pill;
-                            animation-duration: 340ms;
+                            animation-duration: 508ms;
                             animation-fill-mode: both;
                             animation-timing-function: cubic-bezier(0,0,0,0);
                             overflow: hidden;
                             i {
                                 transform: rotate(1turn);
-                                transition: transform 500ms ease-in-out;
+                                transition: transform 550ms ease-in-out;
                             }
                         }
                         &__text {

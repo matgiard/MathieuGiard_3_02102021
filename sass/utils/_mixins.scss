@@ -109,19 +109,21 @@
 
 		.dish {
 			width: 560px;
+			height: 65px;
 			&__icon {
 				left: 89.5%;
 			}
 			&:hover {
 				.dish {
 					&__icon {
+						height: 74px;
 						animation: pill;
-						animation-duration: 340ms;
+						animation-duration: 508ms;
 						animation-fill-mode: forwards;
 						animation-timing-function: cubic-bezier(0,0,0,0);
 						i {
 							transform: rotate(1turn);
-							transition: transform 500ms ease-in-out;
+							transition: transform 550ms ease-in-out;
 						}
 					}
 					&__text {
