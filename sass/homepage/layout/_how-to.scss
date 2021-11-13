@@ -53,7 +53,7 @@
     height: 3px;
     border-radius: 20px;
     &:hover {
-        -webkit-transform:scale(1.25);
+        transform: scale(1.25);
         cursor: pointer;
     }
 }

@@ -150,11 +150,11 @@
 @mixin media-tab {
 	@media only screen and (min-width : 768px) and (max-width : 1200px) {
 		body {
-			max-width: 768px;
+			min-width: 768px;
 		}
 
 		.containerhome {
-			max-width: 768px;
+			min-width: 768px;
 		}
 
 		.entitled {

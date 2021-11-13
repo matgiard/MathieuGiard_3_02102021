@@ -112,11 +112,11 @@ body {
 }
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
   body {
-    max-width: 768px;
+    min-width: 768px;
   }
 
   .containerhome {
-    max-width: 768px;
+    min-width: 768px;
   }
 
   .entitled {
@@ -396,11 +396,11 @@ footer ul {
 }
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
   body {
-    max-width: 768px;
+    min-width: 768px;
   }
 
   .containerhome {
-    max-width: 768px;
+    min-width: 768px;
   }
 
   .entitled {
@@ -559,7 +559,7 @@ header .logo img {
   border-radius: 20px;
 }
 #how-to aside:hover {
-  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
   cursor: pointer;
 }
 
@@ -1034,11 +1034,11 @@ header .logo img {
 }
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
   body {
-    max-width: 768px;
+    min-width: 768px;
   }
 
   .containerhome {
-    max-width: 768px;
+    min-width: 768px;
   }
 
   .entitled {
@@ -1314,11 +1314,11 @@ hr {
 }
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
   body {
-    max-width: 768px;
+    min-width: 768px;
   }
 
   .containerhome {
-    max-width: 768px;
+    min-width: 768px;
   }
 
   .entitled {
