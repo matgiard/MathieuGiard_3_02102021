@@ -165,7 +165,25 @@
 		}
 
 		.entitled {
-			margin-left: 170px;
+			margin-left: 210px;
+		}
+
+		#description {
+			margin-bottom: 10px;
+		}
+
+		#how-to i {
+			margin-left: 70px;
+		}
+
+		#how-to div, .place, .place img, .place--var img {
+			width: 430px;
+		}
+
+		#how-to h1, #restaurants h1 {
+			align-self: baseline;
+			margin-left: 135px;
+			margin-bottom: 25px;
 		}
 
 		footer {
