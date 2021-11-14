@@ -78,10 +78,15 @@
 			}
 		}
 
+		footer {
+			justify-content: center;
+		}
+
 		footer ul {
 			display: flex;
 			align-items: center;
-			margin-left: 315px;
+			margin-left: 0;
+			padding-inline-start: 0;
 			font-size: 18px;
 		}
 
@@ -150,10 +155,12 @@
 @mixin media-tab {
 	@media only screen and (min-width : 768px) and (max-width : 1200px) {
 		body {
+			max-width: 1200px;
 			min-width: 768px;
 		}
 
 		.containerhome {
+			max-width: 1200px;
 			min-width: 768px;
 		}
 
@@ -161,10 +168,15 @@
 			margin-left: 170px;
 		}
 
+		footer {
+			justify-content: center;
+		}
+
 		footer ul {
 			display: flex;
 			align-items: center;
 			margin-left: 0;
+			padding-inline-start: 0;
 			font-size: 15px;
 		}
 

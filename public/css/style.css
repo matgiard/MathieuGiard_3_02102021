@@ -1,5 +1,5 @@
 body {
-  max-width: 414px;
+  max-width: 768px;
   font-family: Roboto, sans-serif;
   margin: 0;
 }
@@ -51,10 +51,15 @@ body {
     width: 560px;
   }
 
+  footer {
+    justify-content: center;
+  }
+
   footer ul {
     display: flex;
     align-items: center;
-    margin-left: 315px;
+    margin-left: 0;
+    padding-inline-start: 0;
     font-size: 18px;
   }
 
@@ -112,10 +117,12 @@ body {
 }
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
   body {
+    max-width: 1200px;
     min-width: 768px;
   }
 
   .containerhome {
+    max-width: 1200px;
     min-width: 768px;
   }
 
@@ -123,10 +130,15 @@ body {
     margin-left: 170px;
   }
 
+  footer {
+    justify-content: center;
+  }
+
   footer ul {
     display: flex;
     align-items: center;
     margin-left: 0;
+    padding-inline-start: 0;
     font-size: 15px;
   }
 
@@ -217,10 +229,15 @@ footer ul {
     width: 560px;
   }
 
+  footer {
+    justify-content: center;
+  }
+
   footer ul {
     display: flex;
     align-items: center;
-    margin-left: 315px;
+    margin-left: 0;
+    padding-inline-start: 0;
     font-size: 18px;
   }
 
@@ -285,7 +302,7 @@ footer ul {
   src: url("../../Ressources/css/shrikhand/Shrikhand-Regular.otf");
 }
 .containerhome {
-  max-width: 414px;
+  max-width: 768px;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -335,10 +352,15 @@ footer ul {
     width: 560px;
   }
 
+  footer {
+    justify-content: center;
+  }
+
   footer ul {
     display: flex;
     align-items: center;
-    margin-left: 315px;
+    margin-left: 0;
+    padding-inline-start: 0;
     font-size: 18px;
   }
 
@@ -396,10 +418,12 @@ footer ul {
 }
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
   body {
+    max-width: 1200px;
     min-width: 768px;
   }
 
   .containerhome {
+    max-width: 1200px;
     min-width: 768px;
   }
 
@@ -407,10 +431,15 @@ footer ul {
     margin-left: 170px;
   }
 
+  footer {
+    justify-content: center;
+  }
+
   footer ul {
     display: flex;
     align-items: center;
     margin-left: 0;
+    padding-inline-start: 0;
     font-size: 15px;
   }
 
@@ -610,10 +639,15 @@ header .logo img {
     width: 560px;
   }
 
+  footer {
+    justify-content: center;
+  }
+
   footer ul {
     display: flex;
     align-items: center;
-    margin-left: 315px;
+    margin-left: 0;
+    padding-inline-start: 0;
     font-size: 18px;
   }
 
@@ -835,10 +869,15 @@ header .logo img {
     width: 560px;
   }
 
+  footer {
+    justify-content: center;
+  }
+
   footer ul {
     display: flex;
     align-items: center;
-    margin-left: 315px;
+    margin-left: 0;
+    padding-inline-start: 0;
     font-size: 18px;
   }
 
@@ -973,10 +1012,15 @@ header .logo img {
     width: 560px;
   }
 
+  footer {
+    justify-content: center;
+  }
+
   footer ul {
     display: flex;
     align-items: center;
-    margin-left: 315px;
+    margin-left: 0;
+    padding-inline-start: 0;
     font-size: 18px;
   }
 
@@ -1034,10 +1078,12 @@ header .logo img {
 }
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
   body {
+    max-width: 1200px;
     min-width: 768px;
   }
 
   .containerhome {
+    max-width: 1200px;
     min-width: 768px;
   }
 
@@ -1045,10 +1091,15 @@ header .logo img {
     margin-left: 170px;
   }
 
+  footer {
+    justify-content: center;
+  }
+
   footer ul {
     display: flex;
     align-items: center;
     margin-left: 0;
+    padding-inline-start: 0;
     font-size: 15px;
   }
 
@@ -1253,10 +1304,15 @@ hr {
     width: 560px;
   }
 
+  footer {
+    justify-content: center;
+  }
+
   footer ul {
     display: flex;
     align-items: center;
-    margin-left: 315px;
+    margin-left: 0;
+    padding-inline-start: 0;
     font-size: 18px;
   }
 
@@ -1314,10 +1370,12 @@ hr {
 }
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
   body {
+    max-width: 1200px;
     min-width: 768px;
   }
 
   .containerhome {
+    max-width: 1200px;
     min-width: 768px;
   }
 
@@ -1325,10 +1383,15 @@ hr {
     margin-left: 170px;
   }
 
+  footer {
+    justify-content: center;
+  }
+
   footer ul {
     display: flex;
     align-items: center;
     margin-left: 0;
+    padding-inline-start: 0;
     font-size: 15px;
   }
 
@@ -1448,10 +1511,15 @@ hr {
     width: 560px;
   }
 
+  footer {
+    justify-content: center;
+  }
+
   footer ul {
     display: flex;
     align-items: center;
-    margin-left: 315px;
+    margin-left: 0;
+    padding-inline-start: 0;
     font-size: 18px;
   }
 
